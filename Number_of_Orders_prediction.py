@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
-# This code uses the Rossmann Store Sales dataset.
 
 train = pd.read_csv("train.csv")
 store = pd.read_csv("store.csv")
